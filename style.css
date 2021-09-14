@@ -4,6 +4,8 @@
 body{
     background-color: teal;
     background-image: url("https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg");
+    background-size: 100% 200%;
+    background-position: center;
     background-repeat: no-repeat;
     font-family: 'Fredericka the Great', cursive;
 }
