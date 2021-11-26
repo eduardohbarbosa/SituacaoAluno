@@ -10,10 +10,10 @@ function calcular(){
     alert(media)
 
     if(media > 5){
-        res.innerHTML = `<p> Aprovado com media ${media} </p>`
+        res.innerHTML = `<p> Aprovado com media ${media.toFixed(2)} </p>`
         res.style.backgroundColor = 'green'
     }else if (media < 5){
-        res.innerHTML = `<p> Reprovado com media ${media} </p>`
+        res.innerHTML = `<p> Reprovado com media ${media.toFixed(2)} </p>`
         res.style.backgroundColor = 'red'
     }else{
         res.innerHTML = `<p> De Recuperação </p>`
