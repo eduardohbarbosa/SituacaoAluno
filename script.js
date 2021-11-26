@@ -7,7 +7,6 @@ function calcular(){
 
     var soma = n1 + n2 + n3 + n4
     media = soma / 4
-    alert(media)
 
     if(media > 5){
         res.innerHTML = `<p> Aprovado com media ${media.toFixed(2)} </p>`
